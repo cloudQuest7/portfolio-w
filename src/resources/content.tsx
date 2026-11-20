@@ -73,7 +73,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/automate-design-handovers-with-a-figma-to-code-pipeline",
   },
   subline: (
     <>
