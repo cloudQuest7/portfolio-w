@@ -1,0 +1,15 @@
+/*
+  Tailwind CSS v4 entry — powers Aceternity UI components only.
+
+  Preflight (Tailwind's global reset) is intentionally NOT imported so it
+  cannot clobber the Once UI design system's global styles. Only the theme
+  tokens and utility classes are pulled in.
+*/
+
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Scan the app source tree for Tailwind class usage. */
+@source "../";
